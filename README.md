@@ -7,11 +7,11 @@ A simple parallax library I made for learning. Hopefully it will be usefull for 
 
 Throw the whole libs directory in the same directory as your main.lua (it expects camera.lua to be like ./libs/camera.lua)
 
-newParallax(image, speed, x, y, zoom)
+    newParallax(image, speed, x, y, zoom)
 
 This creates two tables. var.a and var.b. This is so you can loop them
 
-loopScene(newParallaxTable, offset)
+    loopScene(newParallaxTable, offset)
 
 # Example
 
@@ -62,4 +62,4 @@ function love.update(dt)
 end
 ```
 
-Also, see parallaxDemo for a working example.
+Also, see [parallaxDemo](https://github.com/godofgrunts/parallaxDemo) for a working example.
