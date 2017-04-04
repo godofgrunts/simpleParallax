@@ -15,7 +15,7 @@ loopScene(newParallaxTable, offset)
 
 # Example
 
-'''lua
+```lua
 local par = require 'libs/simpleParallax'
 
 function love.load()
